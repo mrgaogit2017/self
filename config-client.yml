@@ -1,10 +1,10 @@
 info:
   profile: default
-  name: greeting
+  name: greeting1
   spring:
-  application:
-    name: greeting
-  cloud:
-    consul:
-      host: localhost
-      port: 8500
+    application:
+      name: greeting
+    cloud:
+      consul:
+        host: localhost
+        port: 8500
