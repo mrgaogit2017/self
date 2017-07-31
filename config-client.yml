@@ -1,7 +1,7 @@
 info:
   profile: default
   name: greeting
-spring:
+  spring:
   application:
     name: greeting
   cloud:
