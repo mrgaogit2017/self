@@ -1,2 +1,6 @@
 info:
   profile: dev
+
+spring:
+  application:
+    name: configt-git-dev
