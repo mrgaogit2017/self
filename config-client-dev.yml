@@ -1,6 +1,9 @@
 info:
   profile: dev
-
 spring:
   application:
-    name: configt-git-dev
+    name: greeting-dev
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
