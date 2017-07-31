@@ -3,3 +3,7 @@ info:
 spring:
   application:
     name: greeting
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
