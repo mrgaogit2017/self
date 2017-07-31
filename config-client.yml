@@ -2,4 +2,4 @@ info:
   profile: default
 spring:
   application:
-    name: configt-git
+    name: greeting
