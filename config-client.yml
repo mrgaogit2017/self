@@ -9,5 +9,5 @@ info:
         host: localhost
         port: 8500
 detail:
-  profile: default1
+  profile: default
   name: greeting12
