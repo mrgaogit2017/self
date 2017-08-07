@@ -8,3 +8,6 @@ info:
       consul:
         host: localhost
         port: 8500
+detail:
+  profile: default1
+  name: greeting12
