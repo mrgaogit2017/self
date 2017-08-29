@@ -1,6 +1,6 @@
 info:
   profile: default
-  name: greeting1
+  name: greeting131
   spring:
     application:
       name: greeting
