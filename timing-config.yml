@@ -1,0 +1,24 @@
+server:
+  port: 8081
+  
+copyright : Mr.Gao
+  
+spring:
+  application:
+    name: timing
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      enabled: true
+      config:
+        enabled: true
+      discovery:
+        enabled: true
+#        instanceId: now-1
+        serviceName: now1
+#        hostname: localhost
+#        port: 8080
+        
+  zipkin:
+    baseUrl: http://localhost:6060
