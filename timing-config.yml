@@ -1,7 +1,7 @@
 server:
   port: 8088
   
-copyright : Mr.Gao1
+copyright : Mr.Gao
   
 spring:
   application:
