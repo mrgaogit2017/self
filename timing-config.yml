@@ -1,8 +1,8 @@
 server:
-  port: 8088
-  
-copyright : Mr.Gao883382222
-  
+port: 8088
+
+copyright : Mr.Gao883382555
+
 spring:
   application:
     name: timing
