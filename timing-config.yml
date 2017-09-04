@@ -22,3 +22,10 @@ spring:
         
   zipkin:
     baseUrl: http://localhost:6060
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
