@@ -12,6 +12,10 @@ spring:
     username: admin
     password: admin
   cloud:
+    config:
+      retry:
+        initial-interval: 10
+        max-interval: 20
     consul:
       host: localhost
       port: 8500
