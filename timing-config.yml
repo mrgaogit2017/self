@@ -6,6 +6,11 @@ copyright : Mr.Gao883385566666111111
 spring:
   application:
     name: timing
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
   cloud:
     consul:
       host: localhost
@@ -23,9 +28,4 @@ spring:
   zipkin:
     baseUrl: http://localhost:6060
 
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: admin
-    password: admin
+  
