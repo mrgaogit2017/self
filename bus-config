@@ -1,0 +1,25 @@
+server:
+  port: 3033
+
+
+spring:
+  application:
+    name: bus-config
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+  cloud:
+    config:
+      retry:
+        initial-interval: 10
+        max-interval: 20
+    consul:
+      host: localhost
+      port: 8500
+      enabled: true
+      config:
+        enabled: true
+      discovery:
+        enabled: true
